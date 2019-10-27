@@ -1,2 +1,7 @@
-# uikit
-UIKit
+# UIKit
+
+```
+yarn
+yarn bootstrap
+yarn build
+```
