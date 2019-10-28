@@ -3,5 +3,5 @@
 ```
 yarn
 yarn bootstrap
-yarn build
+yarn dev
 ```

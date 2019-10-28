@@ -2,11 +2,7 @@ import * as React from "react"
 import styled from "styled-components"
 
 const Test = styled.div`
-  color: #fff
+  color: #000
 `
 
-export function App() {
-  return (
-      <Test>Theme with styled-components!!!</Test>
-  );
-}
+export const UIForm = () => <Test>Theme with styled-components!</Test>

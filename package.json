@@ -8,8 +8,8 @@
   "scripts": {
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build --stream --parallel",
-    "dev": "lerna run dev"
+    "build": "lerna run build",
+    "dev": "lerna run dev --stream --parallel"
   },
   "devDependencies": {
     "lerna": "3.14.1"
