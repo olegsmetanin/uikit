@@ -1,8 +1,8 @@
 {
-  "name": "@olegsmetanin/uikit",
+  "name": "@olegsmetanin/order-forms",
   "version": "0.0.1",
   "main": "dist/index.js",
-  "module": "dist/uikit.esm.js",
+  "module": "dist/order-forms.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
@@ -17,6 +17,10 @@
   "peerDependencies": {
     "react": ">=16.8",
     "styled-components": ">=4"
+  },
+  "dependencies": {
+    "@olegsmetanin/uikit": "0.0.1",
+    "@olegsmetanin/order-components": "0.0.1"
   },
   "husky": {
     "hooks": {
@@ -34,13 +38,11 @@
     "@types/jest": "^24.0.19",
     "@types/react": "16.9.11",
     "@types/react-dom": "16.9.3",
-    "@types/react-redux": "7.1.5",
     "@types/styled-components": "4.1.20",
     "husky": "^3.0.9",
     "jest-styled-components": "^6.3.3",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-redux": "7.1.1",
     "styled-components": "4.4.0",
     "tsdx": "^0.10.5",
     "tslib": "^1.10.0",

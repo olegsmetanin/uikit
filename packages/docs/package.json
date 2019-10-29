@@ -11,7 +11,8 @@
     "react": "16.11.0",
     "react-dom": "16.11.0",
     "styled-components": "4.4.0",
-    "@olegsmetanin/uikit": "0.0.1"
+    "@olegsmetanin/uikit": "0.0.1",
+    "@olegsmetanin/order-forms": "0.0.1"
   },
   "devDependencies": {
     "@types/node": "12.0.12",
@@ -20,5 +21,6 @@
     "@types/styled-components": "4.1.20",
     "babel-plugin-styled-components": "^1.10.0",
     "typescript": "3.6.4"
-  }
+  },
+  "license": "MIT"
 }
