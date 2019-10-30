@@ -9,7 +9,11 @@
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
-    "dev": "lerna run dev --stream --parallel"
+    "build:docs": "lerna run --scope */uikit-docs build",
+    "build:libs": "lerna run --ignore */uikit-docs build",
+    "dev": "lerna run dev --stream --parallel",
+    "dev:docs": "lerna run --scope */uikit-docs dev --stream --parallel",
+    "dev:libs": "lerna run --ignore */uikit-docs dev --stream --parallel"
   },
   "devDependencies": {
     "lerna": "3.14.1"
