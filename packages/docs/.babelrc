@@ -1,4 +1,4 @@
 {
   "presets": ["next/babel"],
-  "plugins": [["styled-components", { "ssr": true }]]
+  "plugins": [["@babel/plugin-transform-regenerator"], ["styled-components", { "ssr": true }]]
 }

@@ -9,6 +9,7 @@
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
+    "build:dev": "cross-env NODE_ENV=development lerna run build",
     "build:docs": "lerna run --scope */uikit-docs build",
     "build:libs": "lerna run --ignore */uikit-docs build",
     "dev": "lerna run dev --stream --parallel",
@@ -16,6 +17,7 @@
     "dev:libs": "lerna run --ignore */uikit-docs dev --stream --parallel"
   },
   "devDependencies": {
-    "lerna": "3.14.1"
+    "lerna": "3.14.1",
+    "cross-env": "6.0.3"
   }
 }

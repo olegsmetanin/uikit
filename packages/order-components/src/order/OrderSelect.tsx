@@ -1,7 +1,7 @@
 import { select } from '@olegsmetanin/uikit-redux'
-import {OrderValue} from './OrderValue'
+import { OrderSelectValue } from './OrderSelectValue'
 
-export const OrderSelect = select(OrderValue)
+export const OrderSelect = select(OrderSelectValue)
 
 // const {resolveActions, filterActions, selectSagas, } = selectDucks(
 //   actionPrefix,
